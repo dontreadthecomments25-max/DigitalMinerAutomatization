@@ -20,7 +20,7 @@ Settings.SEND_TO_CHAT = true -- Set this to false if you don't wish for the chat
 Blocks = {}
 Blocks.BLOCK_MINER = "mekanism:digital_miner"
 Blocks.BLOCK_ENERGY = "mekanism:quantum_entangloporter" -- Edit this to match your desired block.
-Blocks.BLOCK_STORAGE = "mekanism:quantum_entangloporter" -- Edit this to match your desired block.
+Blocks.BLOCK_STORAGE = "enderstorage:ender_storage" -- Edit this to match your desired block.
 Blocks.BLOCK_CHUNKLOADER = "chickenchunks:chunk_loader" -- Edit this to match your desired block.
 Blocks.BLOCK_CHATBOX = "advancedperipherals:chat_box" -- Edit this only if you are porting to newer/older versions.
 -- User Settings Area --
@@ -126,4 +126,5 @@ for i = 1, Settings.MAX_CHUNKS do
    GlobalVars.m_bHasChatBox = false
     
    main(i)
+
 end
